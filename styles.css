@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #217dbb;
+}
+
+#result {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.division {
+    padding: 10px;
+    margin: 5px auto;
+    width: 200px;
+    background-color: lightblue;
+}
